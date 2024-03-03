@@ -1,0 +1,279 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ */
+
+ :root {
+  --black: #000;
+  --white: #ffffff;
+  --green: #1D726D ;
+  --foshia: #E64D8F ;
+}
+
+ *{
+  box-sizing: border-box;
+ }
+
+ @font-face {
+  font-family: "HSN Ibtisam";
+  src: local("HSN Ibtisam"),
+    url("./fonts/alfont_com_Ibtisam-2.ttf") format("opentype");
+  font-weight: normal;
+}
+
+ h2,h1{
+  text-align: center;
+  font-family: "HSN Ibtisam";
+ }
+
+ .heading{
+  justify-content: center;
+  align-items: baseline;
+ }
+
+ .heading h1{
+  display: contents;
+ }
+
+ p{
+  text-align: right;
+ }
+
+ .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  padding: 7px;
+	background-color:var(--green);
+	border-radius:50px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+
+ .who h5,h4{
+  text-align: right;
+ }
+
+
+ .who img{
+  border-radius: 20px;
+ }
+ 
+
+ .batternImg{
+  height: 25px;
+  width: 150px !important;
+ }
+
+ .iconImg{
+  height: 15px;
+  width: 40px !important;
+ }
+
+ .edit{
+  flex: none !important;
+ }
+
+ .magazineImg{
+  height: 220px;
+  width: 180px !important;
+  box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+ }
+
+
+ .slick-next{
+  right: 25px;
+  z-index: 10;
+  color: var(--green);
+  font-size: 40px;
+  opacity: 1;
+  line-height: 0;
+ }
+
+ .slick-prev{
+  left: 25px;
+  z-index: 10;
+  color: var(--green);
+  font-size: 40px;
+  opacity: 1;
+  line-height: 0;
+ }
+
+ .slick-next:before, .slick-prev:before{
+  color: var(--green);
+  font-size: 40px;
+  opacity: 1;
+  line-height: 0;
+ }
+
+ /* i{
+  color: var(--green);
+  font-size: 30x;
+ } */
+
+ .socialIcon{
+  font-size: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
+ }
+
+ .socialIcon i{
+  color: var(--green);
+  font-size: 25px;
+ }
+
+ .gmail i{
+  display: contents;
+  margin: 2px;
+  font-size: 15px;
+ }
+
+ .gmail h6{
+  display: contents;
+  margin: 2px;
+ }
+
+ .saidAboutUs{
+  justify-content: end;
+  background-color: #fff;
+  padding: 15px;
+  width: 60%;
+  box-shadow: 0px 10px 25px #ccc;
+  -moz-box-shadow: 0px 10px 25px #ccc;
+  -webkit-box-shadow: 00px 10px 25px #ccc;
+  -khtml-box-shadow: 0px 10px 25px #ccc;
+  color: var(--black);
+  border-radius: 30px;
+ }
+
+ .saidAboutUs img{
+  height: 40px;
+ }
+
+ .subscribe{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../src//assets/cover.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ .myBtn{
+  /* height: 70px; */
+  /* width: 70px; */
+  padding: 10px 25px;
+  border-radius: 100px;
+  color: white;
+  background-color: var(--foshia);
+  border-style: none;
+  font-size: 18px;
+ }
+
+
+ .achievements{
+  background-color: var(--white);
+  /* background-color: #EEE0C9; */
+  /* background-color: #E1D4BB; */
+  /* background-color: #EBE4D1; */
+
+  box-shadow: 5px 5px 25px #ccc;
+  -moz-box-shadow: 5px 5px 25px #ccc;
+  -webkit-box-shadow: 5px 5px 25px #ccc;
+  -khtml-box-shadow: 5px 5px 25px #ccc;
+  color: var(--black);
+  border-radius: 30px;
+ }
+
+ .achievements img{
+  height: 75px;
+  /* width: 150px; */
+  margin-bottom: 15px;
+  padding: 12px;
+  color: var(--white) !important;
+  background-color: var(--green);
+  border-radius: 50%;
+ }
+
+ .footer .div{
+  display: contents;
+ }
+
+ /* .footer div{
+  flex: 1 1 auto !important;
+ } */
+
+
+ @media only screen and (min-width: 766px) {
+  .footer .div{
+    flex: 1 0 0% !important;
+  }
+ } 
+
+ @media only screen and (min-width: 540px) {
+  .footer .flex{
+    justify-content: start !important;
+  }
+ } 
+
+/*  
+ @media only screen and (max-width: 912px) {
+  .socialIcon{
+    width: 8% !important;
+ }
+ }
+
+ @media only screen and (max-width: 600px) {
+  .socialIcon{
+    width: 10% !important;
+ }
+ } */
