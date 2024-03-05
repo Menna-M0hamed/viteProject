@@ -1,5 +1,6 @@
 import One from "../src/assets/1.jpg"
 import Two from "../src/assets/2.jpg"
+import Three from "../src/assets/3.png"
 import Four from "../src/assets/4.png"
 
 import person from "../src/assets/student.png"
@@ -138,10 +139,10 @@ export const magazineLinks = [
     },
     {
         id: 3,
-        image: "/",
+        image: Three,
         name: "الاصدار الثالث",
         buttonText: "انتقل",
-        url: "",
+        url: "https://online.pubhtml5.com/rsxui/nczl/",
     },
     {
         id: 4,
