@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import kid from '../assets/ff.png';
+import kid from '../assets/k4.png';
 import Headings from './Headings';
 import { Link } from 'react-router-dom';
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import who from '../assets/Neeew/13.png';
+import who from '../assets/who2.png';
 import icon from '../assets/icon.png';
 import Headings from './Headings';
 
