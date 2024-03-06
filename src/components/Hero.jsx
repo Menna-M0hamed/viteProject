@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 
 const Hero = () => {
   return (
-    <Image src={cover} fluid className='mb-4' />
+    <Image src={cover} fluid className='mb-4' style={{marginTop: '60px'}} />
   )
 }
 

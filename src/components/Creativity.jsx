@@ -18,7 +18,7 @@ const Creativity = () => {
           <h4>تنمية مهارات الأبناء هى أحد أولوياتنا فى برنامج صبغة الله لذا قمنا بإنشاء معرضا لإبداعات أبنائنا. يمكنكم الانضمام له من هنا</h4>  
           <br/>
           <br/>
-          <Link to="/"><button className='myBtn'>شاهد إبداعات الأبناء</button></Link>
+          <Link to="https://t.me/+mTL_Q8h1s0RiYjQ1"><button className='myBtn'>شاهد إبداعات الأبناء</button></Link>
         </div>
         </Col>
       </Row>

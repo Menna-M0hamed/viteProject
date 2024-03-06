@@ -16,18 +16,18 @@ import rating from "../src/assets/rating.png"
 export const navbarLinks = [
     {
         id: 1,
-        url: "#who",
-        text: "من نحن"
+        url: "#call",
+        text: "اتصل بنا"
     },
     {
         id: 2,
-        url: "#ach",
-        text: "انجازاتنا"
+        url: "#sub",
+        text: "التسجيل"
     },
     {
         id: 3,
-        url: "#mag",
-        text: "المجلة"
+        url: "#said",
+        text: "قالوا عنا" 
     },
     {
         id: 4,
@@ -36,18 +36,18 @@ export const navbarLinks = [
     },
     {
         id: 5,
-        url: "#said",
-        text: "قالوا عنا" 
+        url: "#mag",
+        text: "المجلة"
     },
     {
         id: 6,
-        url: "#sub",
-        text: "التسجيل"
+        url: "#ach",
+        text: "انجازاتنا"
     },
     {
         id: 7,
-        url: "#call",
-        text: "اتصل بنا"
+        url: "#who",
+        text: "من نحن"
     },
 ];
 

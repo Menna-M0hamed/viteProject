@@ -13,7 +13,7 @@ const WhoAreWe = () => {
         <Headings heading="من نحن"/>
       </div>
       <Row className='my-4 d-flex justify-content-md-between justify-content-sm-center flex-wrap who'>
-        <Col className='col-md-4 col-sm-10'><img src={who} className='w-100 h-100'/></Col>
+        <Col className='col-md-6 col-sm-10 whoimg'><img src={who} className='w-100 h-100'/></Col>
         <Col className='edit col-md-6 col-sm-10 d-flex align-items-center justify-content-right mt-4'>
         <div>
           <h4>برنامج صبغة الله هو برنامج تعليمى دعوى باشراف الشيخ حسين عبدالرازق. يهتم بأبناء الإسلام من سن ال4 سنوات الى سن ال16. مقسمون الى فئات.. بهدف تنشئتهم على قيم الإسلام والحفاظ على فطرتهم</h4>
