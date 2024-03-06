@@ -18,7 +18,7 @@ const Footer = () => {
             <Link to="https://t.me/s/HusseinAhmed1983?before=5740"><i className="fa-brands fa-telegram"></i></Link>
           </div>
           <div className='socialIcon'>
-            <Link to=""><i className="fa-brands fa-instagram"></i></Link>
+            <Link to=""><i className="fa-brands fa-square-instagram"></i></Link>
           </div>
         </div>
         </Col>
