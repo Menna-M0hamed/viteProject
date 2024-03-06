@@ -6,7 +6,7 @@ import bot from '../assets/bot.png';
 const Float = () => {
   return (
     <div>
-        <Link to="/" className=''><img src={bot} className='float imgFloat'/></Link>
+        <Link to="https://t.me/sbghtollah_bot" className=''><img src={bot} className='float imgFloat'/></Link>
     </div>
   )
 }
