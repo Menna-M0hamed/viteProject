@@ -11,18 +11,20 @@ import Headings from './components/Headings';
 import Float from './components/Float';
 import SaidAboutUs from './components/SaidAboutUs';
 import Creativity from './components/Creativity';
+import ScrollToHashElement from './components/ScrollToHashElement ';
 
 
 function App() {
   return (
     <>
+    <ScrollToHashElement/>
     <NavBar/>
     <Hero/>
     <WhoAreWe/>
     <Achievements/>
     <Magazine/>
-    <SaidAboutUs/>
     <Creativity/>
+    <SaidAboutUs/>
     <Subscribe/>
     <Footer/>
     <Float/>

@@ -65,6 +65,17 @@
   font-family: "HSN Ibtisam";
  }
 
+
+ .navbar-collapse{
+  display: flex;
+  justify-content: center;
+ }
+
+ .nav-link a{
+  text-decoration: none;
+  color: var(--black);
+ }
+
  .heading{
   justify-content: center;
   align-items: baseline;
@@ -80,6 +91,7 @@
 
  .float{
 	position:fixed;
+  z-index: 20;
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -126,7 +138,8 @@
 
 
  .slick-next{
-  right: 25px;
+  top: 135px;
+  right: 30px;
   z-index: 10;
   color: var(--green);
   font-size: 40px;
@@ -135,7 +148,8 @@
  }
 
  .slick-prev{
-  left: 25px;
+  top:135px;
+  left: 8px;
   z-index: 10;
   color: var(--green);
   font-size: 40px;
@@ -150,11 +164,6 @@
   line-height: 0;
  }
 
- /* i{
-  color: var(--green);
-  font-size: 30x;
- } */
-
  .socialIcon{
   font-size: 25px;
   margin-left: 3px;
@@ -167,13 +176,11 @@
  }
 
  .gmail i{
-  display: contents;
   margin: 2px;
-  font-size: 15px;
+  font-size: 20px;
  }
 
  .gmail h6{
-  display: contents;
   margin: 2px;
  }
 
@@ -264,6 +271,34 @@
     justify-content: start !important;
   }
  } 
+
+ @media only screen and (max-width: 300px) {
+  .slick-prev{
+    left:0px;
+    font-size: 30px;
+  }
+
+  .slick-next{
+    right:5px;
+    font-size: 30px;
+  }
+
+  .slick-next:before, .slick-prev:before{
+    font-size: 30px;
+   }
+ }
+/* 
+ @media only screen and (max-width: 300px) {
+  .slick-next{
+    right:10px;
+    font-size: 30px;
+  }
+ }
+
+
+ .slick-next:before, .slick-prev:before{
+  font-size: 30px;
+ } */
 
 /*  
  @media only screen and (max-width: 912px) {

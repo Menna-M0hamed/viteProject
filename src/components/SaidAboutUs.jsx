@@ -41,7 +41,7 @@ const SaidAboutUs = () => {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <Container>
+    <Container id="said">
       <div className="pt-4">
         <Headings heading="قالوا عنا" />
       </div>

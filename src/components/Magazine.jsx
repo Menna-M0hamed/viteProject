@@ -66,7 +66,7 @@ const Magazine = () => {
     ]
   };
   return (
-    <Container className="my-4">
+    <Container className="my-4" id="mag">
       <div className="pt-4">
         <Headings heading="مجلة صبغة الله" />
       </div>
@@ -80,7 +80,8 @@ const Magazine = () => {
                   key={id}
                   className="d-flex flex-column justify-content-center align-items-center mb-4"
                 >
-                  <img src={image} className="magazineImg mb-4" />
+                  <Link to={url}>                  <img src={image} className="magazineImg mb-4"/>
+</Link>
                   <h6 className="mb-3 mt-2">{name}</h6>
                   <Link to={url}>
                     <button className="myBtn">{buttonText}</button>

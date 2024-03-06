@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import who from '../assets/who2.png';
+import who from '../assets/who.jpg';
 import icon from '../assets/icon.png';
 import Headings from './Headings';
 
@@ -8,7 +8,7 @@ import Headings from './Headings';
 
 const WhoAreWe = () => {
   return (
-    <Container className='my-4'>
+    <Container className='my-4' id='who'>
       <div className='m-4'>
         <Headings heading="من نحن"/>
       </div>

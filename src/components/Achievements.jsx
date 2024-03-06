@@ -6,7 +6,7 @@ import Headings from './Headings';
 
 const Achievements = () => {
   return (
-    <Container className='my-4 py-4'>
+    <Container className='my-4 py-4' id='ach'>
       <div className='m-4 pb-3'>
         <Headings heading="إنجازاتنا"/>
       </div>

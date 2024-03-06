@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Creativity = () => {
   return (
-    <Container className='my-4'>
+    <Container className='my-4' id='cre'>
       <div className='m-4'>
         <Headings heading="إبداعات أبناء الإسلام"/>
       </div>

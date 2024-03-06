@@ -16,37 +16,37 @@ import rating from "../src/assets/rating.png"
 export const navbarLinks = [
     {
         id: 1,
-        url: "/",
+        url: "#who",
         text: "من نحن"
     },
     {
         id: 2,
-        url: "/",
+        url: "#ach",
         text: "انجازاتنا"
     },
     {
         id: 3,
-        url: "/",
+        url: "#mag",
         text: "المجلة"
     },
     {
         id: 4,
-        url: "/",
-        text: "قالوا عنا" 
-    },
-    {
-        id: 5,
-        url: "/",
+        url: "#cre",
         text: "إبداعات"
     },
     {
+        id: 5,
+        url: "#said",
+        text: "قالوا عنا" 
+    },
+    {
         id: 6,
-        url: "/",
+        url: "#sub",
         text: "التسجيل"
     },
     {
         id: 7,
-        url: "/",
+        url: "#call",
         text: "اتصل بنا"
     },
 ];

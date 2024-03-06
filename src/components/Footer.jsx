@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <Container className='py-3 footer'>
+    <Container className='py-3 footer' id='call'>
       <Row className='d-flex justify-content-center align-items-center'>
         <Col>
         <div className='d-flex justify-content-center flex'>
@@ -24,7 +24,7 @@ const Footer = () => {
         </Col>
         <div className='div' style={{flex:'auto'}}>
         <div className='socialIcon gmail'>
-            <h6>Email: islamkidshome@gmail.com</h6>
+            <h6><i className="fa-solid fa-envelope"></i> islamkidshome@gmail.com</h6>
         </div>
         </div>
         

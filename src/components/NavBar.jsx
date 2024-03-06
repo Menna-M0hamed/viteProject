@@ -18,7 +18,9 @@ const NavBar = () => {
               const {id, url, text} =link;
               return(
                 <div key={id}>
-                  <Nav.Link to='#footer'>{text}</Nav.Link>
+                  <Nav.Link>
+                    <Link to={url}>{text}</Link>
+                  </Nav.Link>
                 </div>
               )
             })}
