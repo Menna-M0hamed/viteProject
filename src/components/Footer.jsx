@@ -12,7 +12,7 @@ const Footer = () => {
             <Link to="https://www.youtube.com/channel/UCxik2NdZbi-_Zsi16ZBHnng"><i className="fa-brands fa-youtube"></i></Link>
           </div>
           <div className='socialIcon'>
-            <Link to=""><i className="fa-brands fa-facebook"></i></Link>
+            <Link to="https://m.facebook.com/profile.php/?id=100002205917152&name=xhp_nt__fb__action__open_user&locale=ar_AR"><i className="fa-brands fa-facebook"></i></Link>
           </div>
           <div className='socialIcon'>
             <Link to="https://t.me/s/HusseinAhmed1983?before=5740"><i className="fa-brands fa-telegram"></i></Link>

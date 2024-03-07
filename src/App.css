@@ -146,6 +146,12 @@
  }
 
 
+ #mag .slick-track{
+  display: flex !important;
+  flex-direction: row-reverse !important;
+ }
+
+
  .slick-next{
   top: 135px;
   right: 30px;

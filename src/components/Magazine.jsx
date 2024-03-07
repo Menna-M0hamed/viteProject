@@ -36,6 +36,7 @@ const Magazine = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    initialSlide: 2,
     responsive: [
       {
         breakpoint: 1024,
@@ -51,7 +52,7 @@ const Magazine = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 2,
+          initialSlide: 0,
           infinite: true,
         }
       },
